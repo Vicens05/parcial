@@ -10,9 +10,10 @@ import UIKit
 class Seccion1ViewController: UIViewController{
     
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBAction func clickbtnBack(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
+    
+    
 
 }

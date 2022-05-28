@@ -89,7 +89,7 @@
                                     <segue destination="LeF-9v-SYn" kind="show" id="k45-Xn-awb"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-a3-CdO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-a3-CdO">
                                 <rect key="frame" x="0.0" y="115" width="414" height="781"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjF-Rl-M6y">
@@ -108,13 +108,55 @@
                                             <action selector="clickbtnSeeMore:" destination="ww7-4x-UdZ" eventType="touchUpInside" id="DMo-i4-xEx"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ssj-mF-0ZW">
+                                        <rect key="frame" x="133" y="115" width="139" height="140"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="6WR-0p-D1h"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xeo-di-5dL">
+                                        <rect key="frame" x="30" y="320" width="150" height="203"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="9Jw-iL-YB2"/>
+                                        </constraints>
+                                        <string key="text">TEXTO1: orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" systemColor="opaqueSeparatorColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXTO2: orem Ipsum is simply dummy text of the printing and typesetting industry." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVd-Ll-yMP">
+                                        <rect key="frame" x="225" y="320" width="150" height="122"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="wC4-S9-7Kk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wb9-Ow-gII">
+                                        <rect key="frame" x="30" y="563" width="345" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" constant="30" id="HXh-8f-Dsf"/>
+                                    <constraint firstItem="Wb9-Ow-gII" firstAttribute="top" secondItem="Xeo-di-5dL" secondAttribute="bottom" constant="40" id="Kbv-ra-LOv"/>
+                                    <constraint firstItem="nVd-Ll-yMP" firstAttribute="top" secondItem="ssj-mF-0ZW" secondAttribute="bottom" constant="65" id="L6Z-aX-433"/>
                                     <constraint firstItem="qQN-7O-xJz" firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" id="MXy-x0-agg"/>
+                                    <constraint firstItem="ssj-mF-0ZW" firstAttribute="leading" secondItem="Gh7-a3-CdO" secondAttribute="leading" constant="133" id="Oho-O0-z25"/>
+                                    <constraint firstAttribute="trailing" secondItem="ssj-mF-0ZW" secondAttribute="trailing" constant="133" id="Vf9-l0-WEV"/>
                                     <constraint firstItem="rjF-Rl-M6y" firstAttribute="top" secondItem="Gh7-a3-CdO" secondAttribute="top" constant="30" id="WZR-Wd-FUb"/>
+                                    <constraint firstItem="ssj-mF-0ZW" firstAttribute="top" secondItem="rjF-Rl-M6y" secondAttribute="bottom" constant="44" id="Yxb-GM-1k0"/>
+                                    <constraint firstItem="Xeo-di-5dL" firstAttribute="top" secondItem="ssj-mF-0ZW" secondAttribute="bottom" constant="65" id="ar7-e8-ppt"/>
                                     <constraint firstItem="rjF-Rl-M6y" firstAttribute="leading" secondItem="Gh7-a3-CdO" secondAttribute="leading" constant="30" id="bXG-M5-1zV"/>
+                                    <constraint firstItem="Wb9-Ow-gII" firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" id="bun-4v-u5w"/>
+                                    <constraint firstItem="nVd-Ll-yMP" firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" id="czn-fY-3UK"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wb9-Ow-gII" secondAttribute="bottom" constant="184" id="gVl-u5-eVd"/>
                                     <constraint firstItem="qQN-7O-xJz" firstAttribute="top" secondItem="rjF-Rl-M6y" secondAttribute="bottom" constant="10" id="nTk-ms-DwZ"/>
+                                    <constraint firstItem="Wb9-Ow-gII" firstAttribute="leading" secondItem="rjF-Rl-M6y" secondAttribute="leading" id="wTh-51-4Ss"/>
+                                    <constraint firstItem="Xeo-di-5dL" firstAttribute="leading" secondItem="rjF-Rl-M6y" secondAttribute="leading" id="zVu-UM-rkJ"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -169,6 +211,9 @@
                                         <state key="normal" image="arrow.backward" catalog="system">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="clickbtnBack:" destination="XeK-6Z-xQs" eventType="touchUpInside" id="cFC-Lf-feh"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opción 1 (Centro)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4Q-2g-4bc">
                                         <rect key="frame" x="123" y="43" width="168" height="24"/>
@@ -366,6 +411,9 @@
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
