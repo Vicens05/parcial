@@ -13,8 +13,6 @@
 		ADC6B7F12842949C00BDC944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC6B7F02842949C00BDC944 /* Assets.xcassets */; };
 		ADC6B7F42842949C00BDC944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC6B7F22842949C00BDC944 /* LaunchScreen.storyboard */; };
 		ADC6B7FE2842AA6000BDC944 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B7FD2842AA6000BDC944 /* InicioViewController.swift */; };
-		ADC6B8012842AD4A00BDC944 /* Seccion1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B8002842AD4A00BDC944 /* Seccion1ViewController.swift */; };
-		ADC6B8042842B57D00BDC944 /* Seccion2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B8032842B57D00BDC944 /* Seccion2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		ADC6B7F32842949C00BDC944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC6B7F52842949C00BDC944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADC6B7FD2842AA6000BDC944 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
-		ADC6B8002842AD4A00BDC944 /* Seccion1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seccion1ViewController.swift; sourceTree = "<group>"; };
-		ADC6B8032842B57D00BDC944 /* Seccion2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seccion2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +63,6 @@
 				ADC6B7F22842949C00BDC944 /* LaunchScreen.storyboard */,
 				ADC6B7F52842949C00BDC944 /* Info.plist */,
 				ADC6B7FD2842AA6000BDC944 /* InicioViewController.swift */,
-				ADC6B8002842AD4A00BDC944 /* Seccion1ViewController.swift */,
-				ADC6B8032842B57D00BDC944 /* Seccion2ViewController.swift */,
 			);
 			path = parcial;
 			sourceTree = "<group>";
@@ -146,8 +140,6 @@
 				ADC6B7E82842949B00BDC944 /* AppDelegate.swift in Sources */,
 				ADC6B7FE2842AA6000BDC944 /* InicioViewController.swift in Sources */,
 				ADC6B7EA2842949B00BDC944 /* SceneDelegate.swift in Sources */,
-				ADC6B8042842B57D00BDC944 /* Seccion2ViewController.swift in Sources */,
-				ADC6B8012842AD4A00BDC944 /* Seccion1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

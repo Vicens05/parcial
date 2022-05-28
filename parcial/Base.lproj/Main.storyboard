@@ -187,6 +187,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="5WD-bW-j41"/>
                     <connections>
+                        <outlet property="anchorBottonScroll" destination="uNs-dD-VXe" id="E0c-oU-nYj"/>
                         <outlet property="lblDescription" destination="rjF-Rl-M6y" id="v2g-qp-8Nv"/>
                     </connections>
                 </viewController>
@@ -222,6 +223,7 @@
                                         </state>
                                         <connections>
                                             <action selector="clickbtnBack:" destination="XeK-6Z-xQs" eventType="touchUpInside" id="cFC-Lf-feh"/>
+                                            <segue destination="SUD-m3-Hqx" kind="unwind" unwindAction="fromOtherViewWithSegue:" id="KXc-CW-bqb"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opción 1 (Centro)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4Q-2g-4bc">
@@ -264,6 +266,7 @@
                     <navigationItem key="navigationItem" id="Kz9-zW-PBa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEo-K5-U8V" sceneMemberID="firstResponder"/>
+                <exit id="SUD-m3-Hqx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="688" y="-151"/>
         </scene>
@@ -286,6 +289,9 @@
                                         </constraints>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" image="arrow.backward" catalog="system"/>
+                                        <connections>
+                                            <action selector="clickbtnBack:" destination="LeF-9v-SYn" eventType="touchUpInside" id="VJL-Qy-Uvt"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opción 2 (Fondo y centro)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucm-Li-Asn">
                                         <rect key="frame" x="96" y="45" width="222" height="22"/>
@@ -349,6 +355,9 @@
                                         </constraints>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" image="arrow.backward" catalog="system"/>
+                                        <connections>
+                                            <action selector="clickbtnBack:" destination="LSs-q2-Rh6" eventType="touchUpInside" id="87g-y9-c3l"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opción 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAd-rx-D3J">
                                         <rect key="frame" x="164" y="40" width="86" height="24"/>
