@@ -9,6 +9,7 @@ import UIKit
 
 class InicioViewController: UIViewController{
     
+    @IBOutlet private weak var anchorCenterContentY: NSLayoutConstraint!
     @IBAction private func tapToCloseKeyboard(_ sender: UITapGestureRecognizer) {
                 self.view.endEditing(true)
             }
@@ -59,10 +60,21 @@ class InicioViewController: UIViewController{
             }
             
             @objc private func keyboardWillHide(_ notification: Notification){
+                let animationDuration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double ?? 0
                 
+                UIView.animate(withDuration: animationDuration) {
+                    self.anchorCenterContentY.constant = 0
+                    self.view.layoutIfNeeded()
+                }
             }
             
             @objc private func keyboardWillShow(_ notification: Notification){
-                
+                let animationDuration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double ?? 0
+                        let keyboardFrame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect ?? .zero
+                    
+                        UIView.animate(withDuration: animationDuration) {
+                            self.anchorCenterContentY.constant = keyboardFrame.height
+                            self.view.layoutIfNeeded()
+                        }
             }
 }

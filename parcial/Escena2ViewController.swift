@@ -9,4 +9,7 @@ import UIKit
 
 class Escena2ViewController: UIViewController{
     
+    @IBAction func clickbtnBack(_ sender: Any) {
+        dismiss(animated: true, completion:nil)
+    }
 }
