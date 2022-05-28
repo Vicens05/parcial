@@ -174,20 +174,19 @@
                             <constraint firstItem="kMD-t0-2xS" firstAttribute="trailing" secondItem="RpA-o6-W4o" secondAttribute="trailing" id="JLm-WZ-v1j"/>
                             <constraint firstItem="E9Q-FT-MuG" firstAttribute="top" secondItem="sBs-Ac-bBt" secondAttribute="top" id="RDh-qc-iMF"/>
                             <constraint firstItem="Gh7-a3-CdO" firstAttribute="top" secondItem="l40-tY-dHp" secondAttribute="bottom" id="TBC-uQ-49g"/>
+                            <constraint firstAttribute="bottom" secondItem="Gh7-a3-CdO" secondAttribute="bottom" id="WtJ-Tr-FHS"/>
                             <constraint firstAttribute="trailing" secondItem="Gh7-a3-CdO" secondAttribute="trailing" id="Xx1-wm-9gK"/>
                             <constraint firstItem="E9Q-FT-MuG" firstAttribute="leading" secondItem="sBs-Ac-bBt" secondAttribute="leading" id="ajc-K6-UNl"/>
                             <constraint firstItem="oZB-Nl-nso" firstAttribute="top" secondItem="E9Q-FT-MuG" secondAttribute="bottom" id="cdo-ns-GB8"/>
                             <constraint firstItem="oZB-Nl-nso" firstAttribute="leading" secondItem="l40-tY-dHp" secondAttribute="trailing" id="fFa-Q6-mMI"/>
                             <constraint firstItem="l40-tY-dHp" firstAttribute="top" secondItem="E9Q-FT-MuG" secondAttribute="bottom" id="jzW-gU-9Fa"/>
                             <constraint firstItem="oZB-Nl-nso" firstAttribute="width" secondItem="RpA-o6-W4o" secondAttribute="width" multiplier="0.984127" id="p44-51-PEX"/>
-                            <constraint firstAttribute="bottom" secondItem="Gh7-a3-CdO" secondAttribute="bottom" id="uNs-dD-VXe"/>
                             <constraint firstItem="l40-tY-dHp" firstAttribute="leading" secondItem="sBs-Ac-bBt" secondAttribute="leading" id="yq7-ra-6fg"/>
                             <constraint firstItem="RpA-o6-W4o" firstAttribute="leading" secondItem="oZB-Nl-nso" secondAttribute="trailing" id="z4z-4W-Mve"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5WD-bW-j41"/>
                     <connections>
-                        <outlet property="anchorBottonScroll" destination="uNs-dD-VXe" id="E0c-oU-nYj"/>
                         <outlet property="lblDescription" destination="rjF-Rl-M6y" id="v2g-qp-8Nv"/>
                     </connections>
                 </viewController>
@@ -200,10 +199,10 @@
             </objects>
             <point key="canvasLocation" x="-276.81159420289856" y="78.348214285714278"/>
         </scene>
-        <!--Seccion1 View Controller-->
+        <!--Escena1 View Controller-->
         <scene sceneID="ea0-m5-Wtt">
             <objects>
-                <viewController id="XeK-6Z-xQs" customClass="Seccion1ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XeK-6Z-xQs" customClass="Escena1ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DwD-Bs-jHN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,10 +269,10 @@
             </objects>
             <point key="canvasLocation" x="688" y="-151"/>
         </scene>
-        <!--Seccion2 View Controller-->
+        <!--Escena2 View Controller-->
         <scene sceneID="bQ3-65-Sav">
             <objects>
-                <viewController id="LeF-9v-SYn" customClass="Seccion2ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LeF-9v-SYn" customClass="Escena2ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qmS-f7-RSA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -336,10 +335,10 @@
             </objects>
             <point key="canvasLocation" x="1396" y="334"/>
         </scene>
-        <!--View Controller-->
+        <!--Escena3 View Controller-->
         <scene sceneID="ygi-Jw-lRL">
             <objects>
-                <viewController id="LSs-q2-Rh6" customClass="ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LSs-q2-Rh6" customClass="Escena3ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KGK-LN-h3L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
