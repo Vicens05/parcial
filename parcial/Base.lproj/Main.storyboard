@@ -140,6 +140,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" constant="30" id="HXh-8f-Dsf"/>
                                     <constraint firstItem="Wb9-Ow-gII" firstAttribute="top" secondItem="Xeo-di-5dL" secondAttribute="bottom" constant="40" id="Kbv-ra-LOv"/>
@@ -158,6 +159,9 @@
                                     <constraint firstItem="Wb9-Ow-gII" firstAttribute="leading" secondItem="rjF-Rl-M6y" secondAttribute="leading" id="wTh-51-4Ss"/>
                                     <constraint firstItem="Xeo-di-5dL" firstAttribute="leading" secondItem="rjF-Rl-M6y" secondAttribute="leading" id="zVu-UM-rkJ"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HtD-Vp-aI1" appends="YES" id="s1G-a4-iSh"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kMD-t0-2xS"/>
@@ -187,6 +191,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lh7-Mn-hFd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HtD-Vp-aI1">
+                    <connections>
+                        <action selector="tapToCloseKeyboard:" destination="ww7-4x-UdZ" id="FTg-e1-5WX"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-276.81159420289856" y="78.348214285714278"/>
         </scene>
@@ -258,10 +267,10 @@
             </objects>
             <point key="canvasLocation" x="688" y="-151"/>
         </scene>
-        <!--View Controller-->
+        <!--Seccion2 View Controller-->
         <scene sceneID="bQ3-65-Sav">
             <objects>
-                <viewController id="LeF-9v-SYn" customClass="ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LeF-9v-SYn" customClass="Seccion2ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qmS-f7-RSA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
