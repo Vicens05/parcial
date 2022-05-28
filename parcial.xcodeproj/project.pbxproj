@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		ADC6B7E82842949B00BDC944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B7E72842949B00BDC944 /* AppDelegate.swift */; };
 		ADC6B7EA2842949B00BDC944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B7E92842949B00BDC944 /* SceneDelegate.swift */; };
-		ADC6B7EC2842949B00BDC944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B7EB2842949B00BDC944 /* ViewController.swift */; };
 		ADC6B7EF2842949B00BDC944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC6B7ED2842949B00BDC944 /* Main.storyboard */; };
 		ADC6B7F12842949C00BDC944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC6B7F02842949C00BDC944 /* Assets.xcassets */; };
 		ADC6B7F42842949C00BDC944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC6B7F22842949C00BDC944 /* LaunchScreen.storyboard */; };
+		ADC6B7FE2842AA6000BDC944 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B7FD2842AA6000BDC944 /* InicioViewController.swift */; };
+		ADC6B8012842AD4A00BDC944 /* Seccion1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6B8002842AD4A00BDC944 /* Seccion1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADC6B7E42842949B00BDC944 /* parcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC6B7E72842949B00BDC944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC6B7E92842949B00BDC944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADC6B7EB2842949B00BDC944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADC6B7EE2842949B00BDC944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADC6B7F02842949C00BDC944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC6B7F32842949C00BDC944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC6B7F52842949C00BDC944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC6B7FD2842AA6000BDC944 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		ADC6B8002842AD4A00BDC944 /* Seccion1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seccion1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				ADC6B7E72842949B00BDC944 /* AppDelegate.swift */,
 				ADC6B7E92842949B00BDC944 /* SceneDelegate.swift */,
-				ADC6B7EB2842949B00BDC944 /* ViewController.swift */,
 				ADC6B7ED2842949B00BDC944 /* Main.storyboard */,
 				ADC6B7F02842949C00BDC944 /* Assets.xcassets */,
 				ADC6B7F22842949C00BDC944 /* LaunchScreen.storyboard */,
 				ADC6B7F52842949C00BDC944 /* Info.plist */,
+				ADC6B7FD2842AA6000BDC944 /* InicioViewController.swift */,
+				ADC6B8002842AD4A00BDC944 /* Seccion1ViewController.swift */,
 			);
 			path = parcial;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC6B7EC2842949B00BDC944 /* ViewController.swift in Sources */,
 				ADC6B7E82842949B00BDC944 /* AppDelegate.swift in Sources */,
+				ADC6B7FE2842AA6000BDC944 /* InicioViewController.swift in Sources */,
 				ADC6B7EA2842949B00BDC944 /* SceneDelegate.swift in Sources */,
+				ADC6B8012842AD4A00BDC944 /* Seccion1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

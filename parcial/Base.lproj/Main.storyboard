@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-1210" y="78"/>
         </scene>
-        <!--View Controller-->
+        <!--Inicio View Controller-->
         <scene sceneID="I69-E8-UrU">
             <objects>
-                <viewController id="ww7-4x-UdZ" sceneMemberID="viewController">
+                <viewController id="ww7-4x-UdZ" customClass="InicioViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sBs-Ac-bBt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,21 +92,29 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gh7-a3-CdO">
                                 <rect key="frame" x="0.0" y="115" width="414" height="781"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjF-Rl-M6y">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjF-Rl-M6y">
                                         <rect key="frame" x="30" y="30" width="345" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="345" id="sMb-0j-7N8"/>
                                         </constraints>
-                                        <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQN-7O-xJz">
+                                        <rect key="frame" x="319" y="81" width="56" height="30"/>
+                                        <state key="normal" title="Ver más"/>
+                                        <connections>
+                                            <action selector="clickbtnSeeMore:" destination="ww7-4x-UdZ" eventType="touchUpInside" id="DMo-i4-xEx"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" constant="30" id="HXh-8f-Dsf"/>
+                                    <constraint firstItem="qQN-7O-xJz" firstAttribute="trailing" secondItem="rjF-Rl-M6y" secondAttribute="trailing" id="MXy-x0-agg"/>
                                     <constraint firstItem="rjF-Rl-M6y" firstAttribute="top" secondItem="Gh7-a3-CdO" secondAttribute="top" constant="30" id="WZR-Wd-FUb"/>
                                     <constraint firstItem="rjF-Rl-M6y" firstAttribute="leading" secondItem="Gh7-a3-CdO" secondAttribute="leading" constant="30" id="bXG-M5-1zV"/>
+                                    <constraint firstItem="qQN-7O-xJz" firstAttribute="top" secondItem="rjF-Rl-M6y" secondAttribute="bottom" constant="10" id="nTk-ms-DwZ"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -132,15 +140,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5WD-bW-j41"/>
+                    <connections>
+                        <outlet property="lblDescription" destination="rjF-Rl-M6y" id="v2g-qp-8Nv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lh7-Mn-hFd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-276.81159420289856" y="78.348214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Seccion1 View Controller-->
         <scene sceneID="ea0-m5-Wtt">
             <objects>
-                <viewController id="XeK-6Z-xQs" customClass="ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XeK-6Z-xQs" customClass="Seccion1ViewController" customModule="parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DwD-Bs-jHN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
